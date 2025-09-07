@@ -1,7 +1,169 @@
 {
   "@@locale": "sw",
-  "appTitle": "Kitafuta Kliniki",
+  "appTitle": "AfyaMap Kenya",
+  "@appTitle": {
+    "description": "Jina la programu"
+  },
+  
   "selectCounty": "Chagua Kaunti",
   "bookAppointment": "Weka Miadi",
-  "healthHub": "Kituo cha Afya"
+  "healthHub": "Kituo cha Afya",
+  
+  "searchHospitals": "Tafuta hospitali, huduma, au maeneo",
+  "@searchHospitals": {
+    "description": "Maandishi ya kutafuta hospitali"
+  },
+  
+  "searchHint": "mfano: Hospitali ya Kenyatta, Dharura, Nairobi",
+  "@searchHint": {
+    "description": "Kidokezo cha uga wa utafutaji"
+  },
+  
+  "foundHospitals": "Imepatikana hospitali {count}",
+  "@foundHospitals": {
+    "description": "Idadi ya hospitali zilizopatikana",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "showingCachedResults": "Inaonyesha matokeo yaliyohifadhiwa",
+  "clearFilters": "Futa Vichujio",
+  "offlineMode": "Nje ya mtandao - Inatumia data iliyohifadhiwa",
+  "retry": "Jaribu Tena",
+  "refresh": "Sasisha",
+  
+  "hospitalType": "Aina ya Hospitali",
+  "requiredServices": "Huduma Zinazohitajika",
+  "maximumDistance": "Umbali wa Juu",
+  "emergencyOnly": "Dharura Pekee",
+  "fullService": "Huduma Kamili",
+  
+  "generalHospital": "Hospitali ya Jumla",
+  "specialized": "Maalum",
+  "clinic": "Kliniki",
+  "healthCenter": "Kituo cha Afya",
+  "dispensary": "Zahanati",
+  "maternityHome": "Nyumba ya Uzazi",
+  
+  "emergency": "Dharura",
+  "outpatient": "Wagonjwa wa Nje",
+  "inpatient": "Wagonjwa wa Ndani",
+  "maternity": "Uzazi",
+  "pediatrics": "Watoto",
+  "surgery": "Upasuaji",
+  "laboratory": "Maabara",
+  "radiology": "Mionzi",
+  "pharmacy": "Duka la Dawa",
+  
+  "operationalStatus": "Hali ya Utendaji",
+  "open": "Wazi",
+  "limited": "Huduma za Kikomo",
+  "emergencyOnlyStatus": "Dharura Pekee",
+  "closed": "Imefungwa",
+  
+  "bedAvailability": "Upatikanaji wa Vitanda",
+  "generalBeds": "Vitanda vya Kawaida",
+  "icuBeds": "Vitanda vya ICU",
+  "emergencyBeds": "Vitanda vya Dharura",
+  "available": "Vinavyopatikana",
+  "total": "Jumla",
+  
+  "waitTimes": "Muda wa Kusubiri",
+  "emergencyWait": "Kusubiri Dharura",
+  "outpatientWait": "Kusubiri Wagonjwa wa Nje",
+  "minutes": "dakika",
+  
+  "contactInformation": "Maelezo ya Mawasiliano",
+  "phoneNumber": "Nambari ya Simu",
+  "emergencyNumber": "Nambari ya Dharura",
+  "email": "Barua Pepe",
+  "website": "Tovuti",
+  "address": "Anwani",
+  
+  "services": "Huduma",
+  "specialties": "Utaalamu",
+  "operatingHours": "Masaa ya Kufanya Kazi",
+  "insurance": "Bima",
+  "acceptsInsurance": "Inakubali Bima",
+  "insuranceProviders": "Watoa Bima",
+  
+  "reviews": "Maoni",
+  "rating": "Ukadiriaji",
+  "writeReview": "Andika Maoni",
+  "overallRating": "Ukadiriaji wa Jumla",
+  "wouldRecommend": "Ningependekeza",
+  "reviewText": "Maandishi ya Maoni",
+  "submitReview": "Tuma Maoni",
+  
+  "directions": "Pata Mwelekeo",
+  "call": "Piga Simu",
+  "callEmergency": "Piga Simu ya Dharura",
+  "share": "Shiriki",
+  "favorite": "Kipenzi",
+  
+  "distance": "Umbali",
+  "km": "km",
+  "away": "mbali",
+  
+  "notifications": "Arifa",
+  "healthReminder": "Ukumbusho wa Afya",
+  "healthReminderMessage": "Usisahau kupanga uchunguzi wako wa kawaida wa afya!",
+  
+  "errors": "Makosa",
+  "locationServicesDisabled": "Huduma za mahali zimezimwa",
+  "locationPermissionDenied": "Ruhusa za mahali zimekataliwa",
+  "locationPermissionPermanentlyDenied": "Ruhusa za mahali zimekataliwa kabisa",
+  "errorGettingLocation": "Hitilafu katika kupata mahali: {error}",
+  "@errorGettingLocation": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "noInternetConnection": "Hakuna muunganisho wa mtandao. Inatumia data iliyohifadhiwa.",
+  "dataRefreshedSuccessfully": "Data imesasishwa kwa mafanikio",
+  "failedToRefreshData": "Imeshindwa kusasisha data: {error}",
+  "@failedToRefreshData": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "clinicalCard": "Kadi ya Kliniki",
+  "healthRecords": "Rekodi za Afya",
+  "profile": "Wasifu",
+  "signOut": "Toka",
+  "close": "Funga",
+  
+  "monday": "Jumatatu",
+  "tuesday": "Jumanne",
+  "wednesday": "Jumatano",
+  "thursday": "Alhamisi",
+  "friday": "Ijumaa",
+  "saturday": "Jumamosi",
+  "sunday": "Jumapili",
+  
+  "am": "Asubuhi",
+  "pm": "Alasiri",
+  "hours24": "Masaa 24",
+  "closed": "Imefungwa",
+  
+  "level1": "Ngazi ya 1",
+  "level2": "Ngazi ya 2",
+  "level3": "Ngazi ya 3",
+  "level4": "Ngazi ya 4",
+  "level5": "Ngazi ya 5",
+  "level6": "Ngazi ya 6",
+  
+  "public": "Umma",
+  "private": "Binafsi",
+  "faithBased": "Kulingana na Imani",
+  "ngo": "Shirika Lisilo la Kiserikali"
 }

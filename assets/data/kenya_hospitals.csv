@@ -1,0 +1,6 @@
+id,name,county,latitude,longitude,level,type
+1,Nairobi Hospital,Nairobi,-1.2921,36.8219,6,Private
+2,Moi Teaching and Referral Hospital,Uasin Gishu,0.5143,35.2696,6,Public
+3,Kenyatta National Hospital,Nairobi,-1.2921,36.8219,6,Public
+4,Mombasa Hospital,Mombasa,-4.0435,39.6682,5,Private
+5,Kisumu County Hospital,Kisumu,-0.0917,34.7680,5,Public
